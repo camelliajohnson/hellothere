@@ -74,7 +74,7 @@ div.boxed {
 	border-radius: 5px;
 	cursor: pointer;
 }
-.botton:hover{
+.button:hover{
 	background: #333;
 	color: #e3e3e3
 }
