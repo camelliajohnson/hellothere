@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact us</title>
+        <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+    <link rel='stylesheet' type='text/css' href='contact.css'>
+</head>
+<body>
+    <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hongkong.html">Hong Kong</a></li>
+                    <li><a href="Stockholm.html">Stockholm</a></li>
+                    <li><a href="newyork.html">New York</a></li>
+                    <li><a href="budapest.html">Budapest</a></li>
+                    <li><a href="Contact.html">Contact Us </a></li>
+                </ul>
+        </div>
+    <h1>Share your travel tips with us!</h1>
+    <p>Have a travel tip you'd like to share? Contact us using the form below</p>
+<div class="container">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="UK">UK</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="Australia">Australia</option>
+      <option value="Europe">Europe</option>
+      <option value="Asia">Asia</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Share your best travel tips now.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>

@@ -1,7 +1,12 @@
 h1 {
-	color: skyblue;
+	font-family: arial;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 90px;
 	text-align: center;
-	font-family: ayuthaya;}
+}
 
 
 .IMG {
@@ -12,6 +17,7 @@ h1 {
 	margin-top: 20px;
 	height: 40px;
 	background: #a7e0ee;
+	text-align: center;
 }
 .nav ul {
 	margin: 0px;
@@ -33,11 +39,23 @@ h1 {
 
 }
 
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
 }
+
+div.imgcontainer {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
 p {
       font-size: 20px;
       font-family: Arial;
-      color: white;
+      color: black;
     }
 
 h2 {
@@ -54,11 +72,21 @@ body {
     font-family: sans-serif;
 }
 
-
+blockquote footer {
+	color: black;
 }
-.container-fluid {
-  border: 5px gray ;
-  background-color: white;
+
+.blockquote {
+	color: black;
+	font-style: italic;
+	text-align:right;
+}
+
+.jumbotron .container .li .ul{
+  font-weight: bold;
+  padding: 10px;
+  position: relative;
+
 }
 
 .button {
