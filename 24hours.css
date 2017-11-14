@@ -56,10 +56,9 @@ body {
 
 
 }
-div.boxed {
+.container-fluid {
   border: 5px gray ;
-  opacity: 0.7;
-  background-color: gray;
+  background-color: white;
 }
 
 .button {
@@ -89,12 +88,7 @@ div.boxed {
       color: white;
     }
   </style>
-</head>
-<body>
-  <img src="/assets/anna.png">
-  <p>Hi! I'm Anna, a NYC-based marketer. Say hello!</p>
-  <input type="email" placeholder="Your email">
-  <input
+
 
   <style type="text/css">
   .mainsection {color:skyblue; 
