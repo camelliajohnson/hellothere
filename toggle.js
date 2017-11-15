@@ -1,0 +1,1 @@
+$("#clock").fadeToggle(1000).fadeToggle(1000);
